@@ -601,6 +601,18 @@
                               <p class="ticket-item__text">Музеи открыты ежедневно, кроме понедельника, с 10:30 до 17:00.<br>Кассы работают с 10:30 до 16:30.<br><a href="#">На карте ГМЗ «Петергоф»</a> музеи №9 и №11, улица Правленская.
 </p>
                             </div>
+                            <div class="ticket-item">
+                              <a href="#" class="btn btn--blue ticket-item__link">Купить</a>
+                              <h3 class="ticket-item__title">Музей «Игральных карт» и музей «Коллекционеров»</h3>
+                              <p class="ticket-item__text">Музеи открыты ежедневно, кроме понедельника, с 10:30 до 17:00.<br>Кассы работают с 10:30 до 16:30.<br><a href="#">На карте ГМЗ «Петергоф»</a> музеи №9 и №11, улица Правленская.
+</p>
+                            </div>
+                            <div class="ticket-item">
+                              <a href="#" class="btn btn--blue ticket-item__link">Купить</a>
+                              <h3 class="ticket-item__title">Музей «Игральных карт» и музей «Коллекционеров»</h3>
+                              <p class="ticket-item__text">Музеи открыты ежедневно, кроме понедельника, с 10:30 до 17:00.<br>Кассы работают с 10:30 до 16:30.<br><a href="#">На карте ГМЗ «Петергоф»</a> музеи №9 и №11, улица Правленская.
+</p>
+                            </div>
                           </div>
                         </div>
 
@@ -664,13 +676,31 @@
             </div>
         </div>
     </div> <!-- основной контейнер конец -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
-        window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.2.min.js"></script>')
+      //  window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.2.min.js"></script>')
     </script>
     <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
     <script src="assets/js/vendor/plugins.js"></script>
     <script src="assets/js/app.js"></script>
+    <script>
+
+      var col = $(".tickets-result__items").length;
+
+      for (var i = 0; i < col; i++){
+        var h = $(".tickets-result__items:eq(" + i + ")").height();
+        console.log(h);
+        $(".tickets-result__date:eq(" + i + ")").css("height", h);
+      }
+
+      $(window).resize(function(){
+        for (var i = 0; i < col; i++){
+          var h = $(".tickets-result__items:eq(" + i + ")").height();
+          console.log(h);
+          $(".tickets-result__date:eq(" + i + ")").css("height", h);
+        }
+      })
+    </script>
 </body>
 
 </html>
