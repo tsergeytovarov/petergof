@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Главная</title>
+    <title>Билеты</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/tickets.css">
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
@@ -507,7 +508,57 @@
 
                 <!-- Работаем отсюда -->
 
-                
+                <!-- Основной контейнер -->
+                <div class="tickets">
+                  <!-- Шапка с картинкой и кнопками -->
+                  <div class="tickets__header">
+                    <h1 class="tickets__title">Входные и комплексные билеты</h1>
+                    <a href="#" class="btn btn--border">Купить билеты</a>
+                    <a href="#" class="btn btn--yellow">Правила</a>
+                  </div>
+
+                  <!-- Основной контент -->
+                  <div class="ticket-container">
+                    <div class="tickets-calendar">
+                      <div class="tickets-calendar__top clearfix">
+                        <!-- блок с информацией -->
+                        <div class="tickets-information">
+                          <h2 class="tickets-information__title">Информация</h2>
+                          <a href="#" class="tickets-information__link">Правила</a>
+                          <a href="#" class="tickets-information__link">Как добраться</a>
+                          <a href="#" class="tickets-information__link">Карта ГМЗ «Петергоф»</a>
+                          <a href="#" class="tickets-information__link">Часто задаваемые вопросы</a>
+                        </div>
+
+                        <!-- Блок с фильтром мероприятий -->
+                        <div class="tickets-filter">
+                          <form action="" method="">
+                            <p>Посмотреть календарь:</p>
+                            <input type="radio" name="date" value="1" id="date1">
+                            <label for="date1">Неделя</label>
+                            <input type="radio" name="date" value="2" id="date2">
+                            <label for="date2">Июль</label>
+                            <input type="radio" name="date" value="3" id="date3">
+                            <label for="date3">Август</label>
+
+                            <p>Выберете объекты:</p>
+                            <input type="checkbox" name="" id="ch1">
+                            <label for="ch1">Все объекты ГМЗ «Петергоф»</label>
+                            <input type="checkbox" name="" id="ch2">
+                            <label for="ch2">Нижний парк</label>
+                            <input type="checkbox" name="" id="ch3">
+                            <label for="ch3">Музеи «Игральных карт» и «Коллекционеров»</label>
+                            <input type="checkbox" name="" id="ch4">
+                            <label for="ch4">Ропша</label>
+                            <input type="checkbox" name="" id="ch5">
+                            <label for="ch5">Стрельна</label>
+                          </form>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
                 <!-- И вот до сюда -->
 
