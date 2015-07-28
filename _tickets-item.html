@@ -518,12 +518,12 @@
                   </div>
 
                   <!-- Основной контент -->
-                  <div class="ticket-container">
+                  <div class="ticket-container place">
 
                       <h1 class="place-title">Музей «Игральных карт» + музей
 «Коллекционеров»</h1>
 
-                      <ul class="breadcrubmbs">
+                      <ul class="breadcrumbs">
                         <li><a href="#">Календарь</a></li>
                         <li>Заказ билетов</li>
                       </ul>
@@ -533,7 +533,7 @@
                         <div class="place-top__col">Для заказа доступно билетов: 5 шт</div>
                       </div>
 
-                      <form action="" method="">
+                      <form action="" method="" class="row">
                         <table class="place__table">
                           <tr>
                             <td>Категория</td>
@@ -542,7 +542,9 @@
                             <td>Сумма</td>
                           </tr>
                           <tr>
-                            <td colspan="4"></td>
+                            <td colspan="4">
+                              <b>На 1 человека</b>
+                            </td>
                           </tr>
                           <tr class="item">
                             <td>Internet client Adults</td>
@@ -550,7 +552,7 @@
                             <td>
                               <div class="counter">
                                 <button class="btn js-counter-minus">-</button>
-                                <input type="number" value="0">
+                                <input type="text" value="1">
                                 <button class="btn js-counter-plus">+</button>
                               </div>
                             </td>
@@ -562,7 +564,7 @@
                             <td>
                               <div class="counter">
                                 <button class="btn js-counter-minus">-</button>
-                                <input type="number" value="0">
+                                <input type="text" value="1">
                                 <button class="btn js-counter-plus">+</button>
                               </div>
                             </td>
@@ -574,7 +576,7 @@
                             <td>
                               <div class="counter">
                                 <button class="btn js-counter-minus">-</button>
-                                <input type="number" value="0">
+                                <input type="text" value="1">
                                 <button class="btn js-counter-plus">+</button>
                               </div>
                             </td>
@@ -586,7 +588,7 @@
                             <td>
                               <div class="counter">
                                 <button class="btn js-counter-minus">-</button>
-                                <input type="number" value="0">
+                                <input type="text" value="1">
                                 <button class="btn js-counter-plus">+</button>
                               </div>
                             </td>
@@ -599,22 +601,22 @@
                           </tr>
                         </table>
 
-                        <section class="notice notice--gray">
+                        <section class="notice">
                           <h2 class="notice__title">Внимание!</h2>
                           <p class="notice__text">Уважаемые посетители, с 01 июля 2015 г. установлено БЕСПЛАТНОЕ посещение музеев лицами, не достигшими 16-летнего возраста вне зависимости от гражданства (<b>без экскурсионного обслуживания</b>).</p>
                         </section>
 
                         <input type="checkbox" id="ok1">
-                        <lable for="ok1">С <a href="#">ценами</a> на входные билеты в кассах Нижнего парка ознакомлен</lable>
+                        <label for="ok1">С <a href="#">ценами</a> на входные билеты в кассах Нижнего парка ознакомлен</label>
 
                         <input type="checkbox" id="ok2">
-                        <lable for="ok2">Согласен с условиями <a href="#">пользовательского соглашения</a></lable>
+                        <label for="ok2">Согласен с условиями <a href="#">пользовательского соглашения</a></label>
 
                         <section class="notice notice--blue">
                           <p class="notice__text notice__text--big">Для получения кода подтверждения создания заказа введите ваш е-mail:</p>
                           <div class="clearfix">
                             <input type="text">
-                            <button type="submit" class="btn btn--submit">Заказать</button>
+                            <button type="submit" class="btn btn--submit">Заказать <span>→<span></button>
                           </div>
                         </section>
 
