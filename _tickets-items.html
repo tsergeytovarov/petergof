@@ -588,16 +588,23 @@
                         <section class="notice notice--blue">
                           <p>Проверочный код</p>
                           <div class="clearfix">
-                            <input type="text">
+                            <input type="text" placeholder="1234567">
                             <div class="input-text">Выслан вам на указанную <br>эл. почту</div>
                           </div>
                           <p>ФИО получателя</p>
                           <div class="clearfix">
-                            <input type="text">
+                            <input type="text" placeholder="Введите ваше имя">
                             <div class="input-text">Пример:<br>Иванов Иван Иванович</div>
                           </div>
                           <p>Номер телефона</p>
-                          <input type="text">
+                          <input type="text" placeholder="+7 (---) --- -- --">
+                          <div class="clearfix bottom">
+                            <div class="captcha">
+                              <img src="assets/img/tickets/captcha.png" alt="">
+                              <div class="input-text">Введите слово,<br>которое вы видите<br>на картинке</div>
+                            </div>
+                            <button type="submit" class="btn--submit">Подтвердить</button>
+                          </div>
                         </section>
 
                       </form>

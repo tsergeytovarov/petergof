@@ -511,6 +511,10 @@
   font-family: "Arial";
 }
 
+.btn--sumbit span{
+  font-family: "Arial";
+}
+
 .notice--blue{
   background: #00a9e0;
   margin: 50px 0 70px;
@@ -615,4 +619,21 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 7px;
+  font-weight: 600;
+}
+
+.bottom{
+  margin-top: 20px;
+}
+
+.captcha img{
+  float: left;
+}
+
+.captcha .input-text{
+  float: left;
+}
+
+.bottom .btn--submit{
+  margin-top: 70px;
 }
