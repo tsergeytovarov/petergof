@@ -340,6 +340,11 @@
   line-height: 71px;
 }
 
+.place-top__col{
+  float: none;
+  width: 100%;
+}
+
 .place__table{
   width: 100%;
   font-family: "PT Sans", sans-serif;
@@ -367,6 +372,29 @@
 
 .place__table td:nth-child(4){
   width: 20%;
+  text-align: right;
+}
+
+.place__table--result td:nth-child(1){
+  width: 35%;
+  text-align: left;
+}
+
+.place__table--result td:nth-child(2){
+  width: 20%;
+}
+
+.place__table--result td:nth-child(3){
+  width: 10%;
+}
+
+.place__table--result td:nth-child(4){
+  width: 15%;
+  text-align: center;
+}
+
+.place__table--result td:nth-child(5){
+  width: 15%;
   text-align: right;
 }
 
@@ -441,6 +469,11 @@
   padding: 15px 50px 15px 15px;
   background: #eef3f4;
   margin: 30px 0 20px;
+}
+
+.notice b span,
+.text-counter{
+  color: #e0364c;
 }
 
 .notice input{
@@ -564,4 +597,22 @@
 
 .place input[type="checkbox"]:checked + label::after{
   background: url("../img/tickets/checkbox.png") no-repeat center;
+}
+
+.notice--blue p,
+.notice--blue div{
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.input-text{
+  float: right;
+  width: 30%;
+  color: #fff;
+  font-size: 12px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 7px;
 }
