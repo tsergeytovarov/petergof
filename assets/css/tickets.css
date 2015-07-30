@@ -180,6 +180,27 @@
   color: #fff;
 }
 
+.calendar{
+  font-size: 18px;
+  line-height: 20px;
+  color: #00a9e0;
+  padding: 5px 10px 5px 30px;
+  background: url("../img/tickets/ico-calendar.png") no-repeat 7px 7px;
+  border: 1px solid #ededed;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: top;
+  font-family: "PT Sans", sans-serif;
+}
+
+.calendar span{
+  border-bottom: 1px dotted #00a9e0;
+}
+
+.calendar:hover{
+  text-decoration: none;
+}
+
 .tickets-result{
   padding-bottom: 100px;
 }
