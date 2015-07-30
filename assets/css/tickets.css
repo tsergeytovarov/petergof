@@ -839,9 +839,43 @@
     margin: 10px auto 0;
     float: none;
     display: block;
-
   }
 
+  .place-name{
+    display: block;
+    width: 100%!important;
+    text-align: center!important;
+  }
+
+  .fin{
+    display: none;
+  }
+
+  .notice--blue p{
+    text-align: center;
+  }
+
+  .input-text{
+    float: none;
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .captcha{
+    max-width: 320px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .captcha .input-text{
+    display: none;
+  }
+
+  .bottom .btn--submit{
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 460px) {
