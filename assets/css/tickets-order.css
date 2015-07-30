@@ -6,6 +6,7 @@
 
 .order-title {
   margin: 20px 0;
+  margin-bottom: 10px;
   color: #df354b;
   font-weight: 400;
   font-size: 38px;
@@ -13,9 +14,14 @@
 }
 
 .breadcrumbs--order {
+  margin-top: 10px;
   margin-bottom: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid #cbcbcb;
+}
+
+.order-description {
+  font-family: "PT Sans", sans-serif;
 }
 
 .notice--order {
