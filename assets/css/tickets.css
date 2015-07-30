@@ -1115,7 +1115,7 @@
 .title-blue__date {
   display: inline-block;
   vertical-align: top;
-  max-width: 290px;
+  max-width: 289px;
 }
 
 .total-cost,
@@ -1150,6 +1150,7 @@
   margin-left: 6px;
   padding-left: 3px;
   min-width: 570px;
+  max-width: 570px;
   font-weight: 400;
 }
 
