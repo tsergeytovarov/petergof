@@ -1,0 +1,57 @@
+.ticket-container.order {
+  margin-top: 22px;
+  padding: 0;
+  padding-bottom: 105px;
+}
+
+.order-title {
+  margin: 20px 0;
+  color: #df354b;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 42px;
+}
+
+.breadcrumbs--order {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.notice--order {
+  margin: 0 auto;
+  padding: 25px 15px;
+  width: 820px;
+  text-align: center;
+}
+
+.notice__title--order {
+  margin-bottom: 25px;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.btn--payment {
+  position: relative;
+  padding: 15px 18px;
+  padding-right: 47px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  background: #004b87;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn--payment:hover {
+  color: #fff;
+  text-decoration: none;
+  opacity: .9;
+}
+
+.btn--payment:after {
+  content: url("../img/tickets/white-arrow-left.png");
+  position: absolute;
+  top: 12px;
+  right: 17px;
+}
