@@ -530,11 +530,11 @@
 
             <section class="order-summary">
 
-              <div class="order-description row">
+              <div class="order-description order-description--first-row row">
 
                 <div class="order-description__left-col">
                   <div class="order-details">Наименование организации: ГМЗ &laquo;Петергоф&raquo;</div>
-                  <div class="order-details">198516, Россия, г.Санкт-Петербург, г.Петергоф, ул.Разводная, д.2;<br>
+                  <div class="order-details order-details--second-line">198516, Россия, г.Санкт-Петербург, г.Петергоф, ул.Разводная, д.2;<br>
                   тел. +7(812)450-65-13</div>
                   <div class="order-details__title">Ваучер (электронный билет)</div>
                   <div class="order-details__title order-details__title-second">Заказ № <span class="order-details__number">58894</span> от <span class="order-details__date">08.07.2015</span></div>
@@ -542,7 +542,10 @@
                 </div>
 
                 <div class="order-description__right-col">
-                  <div class="order-details__payment">Дата оплаты: <span class="order-details__payment-date"></span></div>
+                  <div class="order-details-wrapper row">
+                    <div class="order-details__payment">Дата оплаты:</div>
+                    <div class="order-details__payment-date"></div>
+                  </div>
                   <div class="bar-code"><img src="assets/img/tickets/bar-code.jpg" width="91" height="47" alt="" class="bar-code-image"></div>
                   <div class="order-status">Не оплачен</div>
                   <div class="order-number">794018158009</div>
@@ -550,45 +553,49 @@
               </div>
 
               <div class="order-description row">
-                <div class="order-targer">Кому: <span class="order-targer-name">TEST123</span></div>
+                <div class="order-target">Кому: <span class="order-target-name">TEST123</span></div>
                 <div class="order-payment">Вид оплаты: <span class="payment-type">Кредитная карта</span></div>
               </div>
 
               <div class="order-details-table">
                 <table>
                   <tr>
-                    <th>№ п/п</th>
+                    <th>№ <br>
+                      п/п</th>
                     <th>Категория посетителя</th>
                     <th>Ценовая зона</th>
                     <th>Цена</th>
-                    <th>Кол-во билетов</th>
+                    <th>Кол-во<br>
+                    билетов</th>
                     <th>Сумма, руб.</th>
                   </tr>
                   <tr class="title-blue">
-                    <th class="title-blue__name">Музей &laquo;Игральных карт&raquo; + Музей &laquo;Коллекционеров&raquo;</th>
-                    <th class="title-blue__date">Дата посещения <span class="visit-date">09.07.2015 (Четверг)</span></th>
+                    <td class="align-left" colspan="6">
+                      <span class="title-blue__name">Музей &laquo;Игральных карт&raquo; + Музей &laquo;Коллекционеров&raquo;</span>
+                      <span class="title-blue__date">Дата посещения <span class="visit-date">09.07.2015 (Четверг)</span></span>
+                    </td>
                   </tr>
                   <tr>
-                    <th>1</th>
-                    <th>Internet client Adults</th>
-                    <th>На 1 человека</th>
-                    <th>400,00</th>
-                    <th>1</th>
-                    <th>400,00</th>
+                    <td>1</td>
+                    <td class="align-left">Internet client Adults</td>
+                    <td>На 1 человека</td>
+                    <td>400,00</td>
+                    <td>1</td>
+                    <td>400,00</td>
                   </tr>
                   <tr>
-                    <th>2</th>
-                    <th>Интернет-клиент Взрослый (РФ и СНГ)</th>
-                    <th>На 1 человека</th>
-                    <th>200,00</th>
-                    <th>2</th>
-                    <th>400,00</th>
+                    <td>2</td>
+                    <td class="align-left">Интернет-клиент Взрослый (РФ и СНГ)</td>
+                    <td>На 1 человека</td>
+                    <td>200,00</td>
+                    <td>2</td>
+                    <td>400,00</td>
                   </tr>
                   <tr class="title-blue">
-                    <th colspan="3"></th>
-                    <th>Итого:</th>
-                    <th>3</th>
-                    <th>800,00</th>
+                    <td colspan="3"></td>
+                    <td>Итого:</td>
+                    <td>3</td>
+                    <td>800,00</td>
                   </tr>
                 </table>
                 <div class="total-cost">Итого на сумму: <span class="total-cost__amount">восемьсот рублей 00 копеек</span></div>

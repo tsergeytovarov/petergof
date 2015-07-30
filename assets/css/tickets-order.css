@@ -20,8 +20,266 @@
   border-bottom: 1px solid #cbcbcb;
 }
 
+.order-summary {
+  padding-left: 32px;
+  padding-right: 100px;
+}
+
 .order-description {
+  box-sizing: border-box;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 7px;
+  padding-left: 10px;
   font-family: "PT Sans", sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.order-description--first-row {
+  margin-bottom: 13px;
+  padding-left: 0;
+  font-size: 12px;
+}
+
+.order-description__left-col {
+  float: left;
+  padding-left: 10px;
+  width: 368px;
+}
+
+.order-description__right-col {
+  float: right;
+  padding-right: 27px;
+  padding-top: 17px;
+  width: 320px;
+  text-align: right;
+}
+
+.order-details {
+  margin-bottom: 21px;
+}
+
+.order-details--second-line {
+  margin-bottom: 14px;
+}
+
+.order-details__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+
+.order-details__subtitle {
+  font-size: 13px;
+}
+
+.order-details-wrapper {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.order-details__payment-date {
+  float: right;
+  width: 105px;
+  height: 16px;
+}
+
+.order-details__payment {
+  float: left;
+  padding-left: 107px;
+  font-size: 13px;
+}
+
+.bar-code {
+  margin-bottom: 22px;
+}
+
+.order-status {
+  position: relative;
+  margin-left: 20px;
+  margin-bottom: 7px;
+  width: 155px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+
+.order-status:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+
+.order-number {
+  padding-right: 12px;
+  font-size: 11px;
+}
+
+.order-target {
+  float: left;
+  font-weight: 700;
+}
+
+.order-target-name {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 12px;
+  padding-left: 3px;
+  width: 398px;
+  font-weight: 400;
+}
+
+.order-target-name:after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+
+.order-payment {
+  float: right;
+  font-weight: 700;
+}
+
+.payment-type {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 12px;
+  padding-left: 3px;
+  width: 130px;
+  font-weight: 400;
+}
+
+.payment-type:after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+
+.order-details-table {
+  width: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+}
+
+.order-details-table .title-blue {
+  font-weight: 700;
+  background-color: #defcfe;
+}
+
+.order-details-table table {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.order-details-table td,
+.order-details-table th {
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.order-details-table th:first-child {
+  width: 36px;
+}
+
+.order-details-table .align-left {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: left;
+  line-height: 23px;
+}
+
+.title-blue {
+  text-align: left;
+}
+
+.title-blue__name {
+  display: inline-block;
+  vertical-align: top;
+  width: 387px;
+  text-transform: uppercase;
+  border-right: 1px solid #000;
+}
+
+.title-blue__date {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 290px;
+}
+
+.total-cost,
+.order-information {
+  padding-left: 6px;
+  padding-right: 17px;
+  font-weight: 700;
+}
+
+.total-cost {
+  margin-bottom: 3px;
+}
+
+.order-information {
+  margin-bottom: 5px;
+}
+
+.total-cost__amount {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 6px;
+  padding-left: 3px;
+  min-width: 557px;
+  font-weight: 400;
+}
+
+.order-information__text {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 6px;
+  padding-left: 3px;
+  min-width: 570px;
+  font-weight: 400;
+}
+
+.total-cost__amount:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: o;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+
+.payment-type-img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 80px;
 }
 
 .notice--order {
