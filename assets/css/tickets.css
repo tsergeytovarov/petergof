@@ -256,7 +256,7 @@
 .ticket-item__link{
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 15px;
 }
 
 .ticket-item__text{
@@ -275,7 +275,6 @@
 .ticket-item__text a:hover{
   text-decoration: none;
 }
-
 
 /* страница покупки для одного места */
 
@@ -1242,6 +1241,18 @@
   .order-target{
     width: 100%;
   }
+
+  .title-blue__name{
+    width: 100%;
+  }
+
+  .tickets-filter p:nth-of-type(2){
+    margin-top: 10px;
+  }
+
+  .tickets-calendar__top{
+    border-bottom: 0;
+  }
 }
 
 @media (max-width: 460px) {
@@ -1250,4 +1261,34 @@
     background-image: url("../img/tickets/bg-tickets--small.jpg");
   }
 
+}
+
+.ticket-item:last-child{
+  margin-bottom: 0;
+}
+
+form.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.footer{
+  float: left;
+  width: 100%;
+}
+
+.place-top__col--single{
+  width: 100%;
+}
+
+tr.place-line{
+  border-bottom: 1px solid #333;
+}
+
+.notice--top{
+  margin-bottom: 0;
+}
+
+.notice--bottom{
+  margin-top: 0;
 }
